@@ -1,0 +1,27 @@
+.boton {
+    position: absolute;
+    z-index: 1000;
+    width: 35px; /* Ajusta el ancho del botón */
+    height: 30px; /* Mantiene la altura */
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    
+}
+#boton_activar_puntos{
+    top: 245px; /* Ajusta la posición vertical */
+    left: 18px; /* Ajusta la posición horizontal */
+}
+#boton_alternar_instituciones{
+    top: 275px; /* Ajusta la posición vertical */
+    left: 18px; /* Ajusta la posición horizontal */
+}
+#heatmap{
+    top: 305px; /* Ajusta la posición vertical */
+    left: 18px; /* Ajusta la posición horizontal */
+}
+#logo{
+    max-width: 110%;
+    height: auto;
+}

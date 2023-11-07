@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegios comuna 8</title>
+
+    <link rel="stylesheet" type="text/css" href="css/body.css">
+    <link rel="stylesheet" type="text/css" href="css/boton.css">
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css" />
+	
+    <link href="
+    https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css
+    " rel="stylesheet">
+
+    <link rel="stylesheet" href="posición/dist/L.Control.Locate.min.css" />
+
+    <link rel="stylesheet" href="geocodificar/l.geosearch.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js
+    "></script>
+
+    <script src="posición/src/L.Control.Locate.js" ></script>
+    <script src="geocodificar/l.control.geosearch.js"></script>
+    <script src="geocodificar/l.geosearch.provider.esri.js"></script>
+	
+
+</head>
+<body>
+        <div class="contenedor_titulo">
+            <h1 class="titulo_cabecera">Instituciones Educativas Comuna 18, Cali-Valle del Cauca</h1>
+        </div>
+        <div class="contenedor_principal">
+            <div class="contenedor_mapa" id="map">
+                <!-- Mapa se agregará aquí -->
+            </div>
+            <button class="boton" id="boton_activar_puntos">
+                <img src="image/encendido.png" id="logo">
+            </button>
+            <button class="boton" id="boton_alternar_instituciones">
+                <img src="image/colegio.png" id="logo">
+            </button>
+            <button class="boton" id="heatmap">
+                <img src="image/heatmap.png" id="logo">
+            </button>
+        </div>
+     <script type="text/javascript" src="js/map.js"></script>
+    
+    
+    
+
+
+
+
+
+</body>
+</html>

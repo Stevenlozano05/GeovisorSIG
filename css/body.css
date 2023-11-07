@@ -1,0 +1,23 @@
+.contenedor_principal {
+    display: flex;
+}
+
+
+.contenedor_titulo {
+    flex: 1; /* Esto hace que el título ocupe todo el espacio restante */
+    background-color: rgb(206, 206, 206, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 20px; /* Añade un relleno para dar espacio al título */
+    text-align: center; 
+}
+
+.titulo_cabecera {
+    margin: 0;
+    font-family: Tahoma, sans-serif
+}
+
+.contenedor_mapa {
+    width: 100vw; /* Ajusta el ancho del mapa según tus preferencias */
+    height: 90vh; /* Ajusta la altura del mapa según tus preferencias */
+    background-color: rosybrown /* Establece un color de fondo para el mapa */
+}
